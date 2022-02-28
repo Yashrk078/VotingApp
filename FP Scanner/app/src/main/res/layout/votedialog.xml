@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:gravity="center_horizontal">
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/algo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bevan"
+        android:textAlignment="center"
+        android:text="A Voting Section \n"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You can choose a Candidate by Selecting the Radio button."
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:text="Here you will need to authenticate first to vote for a candidate." />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:text="Once your Fingerprint Authentication is complete, your vote is successfully sent. \n" />
+    <Button
+        android:id="@+id/accept"
+        android:ems="11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ok"/>
+</LinearLayout>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    android:background="@drawable/bgblack"
+    tools:context=".homedash">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/black_ops_one"
+                android:padding="12dp"
+                android:paddingLeft="55sp"
+                android:text="\t\tVoting Categories"
+                android:textAllCaps="true"
+                android:background="@drawable/borderwhite"
+                android:textColor="#3599e6"
+                android:shadowColor="#f7e928"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/employee"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/red"
+            android:padding="5sp"
+            android:layout_margin="5sp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bevan"
+                android:text="CHIEF EXECUTIVE OFFICER  👩‍🎓"
+                android:background="@drawable/borderblack"
+                android:paddingTop="25sp"
+                android:paddingBottom="25sp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="26dp" />
+
+
+            <Button
+                android:id="@+id/empbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:paddingTop="100sp"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/boss"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/blue"
+            android:padding="5sp"
+            android:layout_margin="5sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bevan"
+                android:textAlignment="center"
+                android:paddingTop="15sp"
+                android:text="Head of \nmarketing 🤵"
+                android:paddingBottom="25sp"
+                android:background="@drawable/borderblack"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp" />
+
+
+            <Button
+                android:id="@+id/bossbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:padding="50sp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/algo"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/green"
+            android:padding="5sp"
+            android:layout_margin="5sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bevan"
+                android:textAlignment="center"
+                android:paddingTop="25sp"
+                android:paddingBottom="64sp"
+                android:text="PRESIDENT 🛡"
+                android:background="@drawable/borderblack"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp" />
+
+
+
+            <Button
+                android:id="@+id/algobutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:padding="50sp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/game"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/mauve"
+            android:padding="5sp"
+            android:layout_margin="5sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bevan"
+                android:paddingTop="25sp"
+                android:text="Developer team 👨🏽‍💻"
+                android:background="@drawable/borderblack"
+                android:paddingBottom="64sp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp" />
+
+
+
+            <Button
+                android:id="@+id/gamebutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:padding="50sp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/food"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/red"
+            android:padding="5sp"
+            android:layout_margin="5sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bevan"
+                android:paddingTop="15sp"
+                android:text="MAINTENANCE TEAM 👩🏽‍🔧"
+                android:background="@drawable/borderblack"
+                android:paddingBottom="35sp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp" />
+
+
+            <Button
+                android:id="@+id/foodbutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:padding="50sp"
+                />
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="335dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/quit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="QUIT"
+                android:background="@drawable/green"
+                android:layout_margin="30sp"
+                android:ems="7"
+                android:textAlignment="center"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
